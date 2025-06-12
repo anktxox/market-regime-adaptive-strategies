@@ -9,8 +9,8 @@ import numpy as np
 import datetime
 import os
 import sys
-os.chdir(r'C:\Users\harsh\Desktop\inter-iit\untrade-sdk')
-untrade1= os.path.abspath('untrade-sdk')
+#os.chdir(r'C:\Users\Ankit\Desktop\inter-iit\untrade-sdk')
+#untrade1= os.path.abspath('untrade-sdk')
 sys.path.append(untrade1)
 from untrade.client import Client
 client = Client()
@@ -877,6 +877,6 @@ def perform_backtest(csv_file_path):
 
 if __name__ == "__main__":
 
-    strat1,strat2,strat3,strat4 = process_data(r'C:\Users\harsh\Desktop\inter-iit\eth_4h.csv',r'C:\Users\harsh\Desktop\inter-iit\eth_1D.csv')
+    strat1,strat2,strat3,strat4 = process_data(r'C:\Users\ankit\Desktop\inter-iit\eth_4h.csv',r'C:\Users\harsh\Desktop\inter-iit\eth_1D.csv')
     strat(strat1,strat2,strat3,strat4)
-    perform_backtest(r'C:\Users\harsh\Desktop\inter-iit\eth_final.csv')
+    perform_backtest(r'C:\Users\ankit\Desktop\inter-iit\eth_final.csv')
