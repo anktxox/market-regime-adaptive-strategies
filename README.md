@@ -39,4 +39,3 @@ All strategies generate alpha signals based on real-time indicators. A portfolio
 - PyTorch (for Temporal Fusion Transformer)
 - Kalman Filter, RSI, MACD, STC, ADX, ATR, Heiken Ashi
 
-## 📂 File Structure
